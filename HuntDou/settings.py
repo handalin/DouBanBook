@@ -14,7 +14,7 @@ NEWSPIDER_MODULE = 'DouBanBook.spiders'
 DOWNLOAD_DELAY =2.0
 
 IMAGES_STORE = 'pic/'
-DOWNLOAD_TIMEOUT = 1200
+DOWNLOAD_TIMEOUT = 1100
 ITEM_PIPELINES = ['scrapy.contrib.pipeline.images.ImagesPipeline',
                   'DouBanBook.pipelines.DoubanbookPipeline']#
 
